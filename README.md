@@ -93,7 +93,3 @@ Use `PowerBI_Import_Workbook.xlsx` with Power BI to inspect the model tables and
 ## How to cite or reuse
 
 This repository is an educational project. Cite the original data provider(s) identified in the source workbooks and assignment materials when reusing the data or findings. Check the terms of the original data before redistribution. No additional software license is specified in this repository.
-
-## Submission note
-
-This GitHub repository is the code and analysis copy. Refer to the separately shared Google Drive submission folder for any additional deliverables required by the course, including the explanation video. Confirm that your instructor can access both links.
