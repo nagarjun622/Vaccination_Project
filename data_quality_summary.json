@@ -1,0 +1,101 @@
+{
+  "inputs": [
+    {
+      "table": "coverage",
+      "source_file": "coverage-data.xlsx",
+      "rows": 399859,
+      "columns": 11,
+      "exact_duplicates_removed": 0,
+      "missing_cells": 812024,
+      "year_min": 1980,
+      "year_max": 2023
+    },
+    {
+      "table": "incidence",
+      "source_file": "incidence-rate-data.xlsx",
+      "rows": 84946,
+      "columns": 8,
+      "exact_duplicates_removed": 0,
+      "missing_cells": 23368,
+      "year_min": 1980,
+      "year_max": 2023
+    },
+    {
+      "table": "cases",
+      "source_file": "reported-cases-data.xlsx",
+      "rows": 84870,
+      "columns": 7,
+      "exact_duplicates_removed": 0,
+      "missing_cells": 19405,
+      "year_min": 1980,
+      "year_max": 2023
+    },
+    {
+      "table": "introduction",
+      "source_file": "vaccine-introduction-data.xlsx",
+      "rows": 138321,
+      "columns": 6,
+      "exact_duplicates_removed": 0,
+      "missing_cells": 5,
+      "year_min": 1940,
+      "year_max": 2023
+    },
+    {
+      "table": "schedule",
+      "source_file": "vaccine-schedule-data.xlsx",
+      "rows": 8053,
+      "columns": 12,
+      "exact_duplicates_removed": 0,
+      "missing_cells": 8256,
+      "year_min": 2019,
+      "year_max": 2023
+    }
+  ],
+  "summary": {
+    "coverage_source_rows": 399859,
+    "admin_usable_rows": 72030,
+    "admin_year_min": 1980,
+    "admin_year_max": 2023,
+    "countries": 214,
+    "antigens": 60,
+    "coverage_median": 89.56,
+    "coverage_below_95_pct": 66.74718867138692,
+    "coverage_source_missing_pct": 42.360432052298435,
+    "introduction_rows": 138321,
+    "schedule_rows": 8053,
+    "incidence_rows": 84946,
+    "case_rows": 84870,
+    "matched_candidate_pairs": 21726,
+    "candidate_spearman_rho": -0.27036583342507253
+  },
+  "association_pairs": {
+    "MEASLES": [
+      "MEASLES",
+      "MCV1",
+      "MCV2"
+    ],
+    "POLIO": [
+      "POL3",
+      "IPV1",
+      "IPV2"
+    ],
+    "DIPHTHERIA": [
+      "DTP1",
+      "DTP3",
+      "DIPHCV1",
+      "DIPHCV3"
+    ],
+    "HEPATITIS_B": [
+      "HEPB3",
+      "HEPB_BD"
+    ],
+    "TUBERCULOSIS": [
+      "BCG"
+    ],
+    "RUBELLA": [
+      "RUBELLA",
+      "RCV1"
+    ]
+  },
+  "association_interpretation": "Ecological, descriptive only; no causal inference."
+}
